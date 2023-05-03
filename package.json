@@ -1,0 +1,11 @@
+{
+  "devDependencies": {
+    "parcel": "^2.8.3"
+  },
+  "dependencies": {
+    "textalive-app-api": "^0.3.2"
+  },
+  "script":{
+    
+  }
+}

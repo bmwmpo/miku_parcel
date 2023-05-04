@@ -5,7 +5,7 @@
   "dependencies": {
     "textalive-app-api": "^0.3.2"
   },
-  "script":{
-    
+  "scripts":{
+    "build-dev" : "parcel ./index.html --dist-dir dev"
   }
 }

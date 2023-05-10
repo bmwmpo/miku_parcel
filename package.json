@@ -6,6 +6,8 @@
     "textalive-app-api": "^0.3.2"
   },
   "scripts":{
-    "build-dev" : "parcel ./index.html --dist-dir dev"
+    "build-dev" : "parcel ./index.html --dist-dir dev",
+    "clean": "del-cli .parcel-cache dev docs",
+    "prebuild": "del-cli docs"
   }
 }

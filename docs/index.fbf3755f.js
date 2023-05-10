@@ -12,14 +12,8 @@ const func1 = (string)=>{
     } else temp.innerHTML = temp.innerHTML + "<p class='g" + grpNo + "'>" + string + "</p>";
     grpNo += 1;
     if (grpNo === 5) {
-        var temp_opacity = document.getElementsByClassName("g1")[0];
-        temp_opacity.style.opacity = 0.2;
-        temp_opacity.style.color = "purple";
-    }
-    if (grpNo === 7) {
-        var temp_del = document.getElementsByClassName("g2")[0];
-        temp_del.remove();
+        var temp_del = document.getElementsByClassName("g1")[0];
+        temp_del.style.opacity = 0.2;
     }
 };
 
-//# sourceMappingURL=index.e5947a3d.js.map

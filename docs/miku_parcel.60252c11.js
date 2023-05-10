@@ -142,13 +142,13 @@
       this[globalName] = mainExports;
     }
   }
-})({"8QlP1":[function(require,module,exports) {
+})({"8acpU":[function(require,module,exports) {
 var global = arguments[3];
 var HMR_HOST = null;
 var HMR_PORT = null;
 var HMR_SECURE = false;
-var HMR_ENV_HASH = "d6ea1d42532a7575";
-module.bundle.HMR_BUNDLE_ID = "46ff091b40863ccb";
+var HMR_ENV_HASH = "42036d7a98ade5a7";
+module.bundle.HMR_BUNDLE_ID = "4a3fdaaa60252c11";
 "use strict";
 /* global HMR_HOST, HMR_PORT, HMR_ENV_HASH, HMR_SECURE, chrome, browser, globalThis, __parcel__import__, __parcel__importScripts__, ServiceWorkerGlobalScope */ /*::
 import type {
@@ -556,26 +556,7 @@ function hmrAccept(bundle, id) {
     });
 }
 
-},{}],"8lqZg":[function(require,module,exports) {
-var grpNo = 0;
-var string1 = "(    wa ! )";
-const func1 = (string)=>{
-    var temp = document.getElementById("space");
-    if (grpNo === 4) {
-        if (string1.includes("(")) {
-            var size = string1.length;
-            string1 = string1.replace("(", "");
-            string1 = string1.replace(")", "");
-            temp.innerHTML = temp.innerHTML + "<p class='g" + grpNo + "'>" + string1 + "</p>";
-        }
-    } else temp.innerHTML = temp.innerHTML + "<p class='g" + grpNo + "'>" + string + "</p>";
-    grpNo += 1;
-    if (grpNo === 5) {
-        var temp_del = document.getElementsByClassName("g1")[0];
-        temp_del.style.opacity = 0.2;
-    }
-};
+},{}],"J4vp5":[function(require,module,exports) {
 
-},{}]},["8QlP1","8lqZg"], "8lqZg", "parcelRequire94c2")
+},{}]},["8acpU","J4vp5"], "J4vp5", "parcelRequire94c2")
 
-//# sourceMappingURL=index.40863ccb.js.map

@@ -9,6 +9,23 @@
     <title>Document</title>
 </head>
 <body>
+    <svg width="15cm" height="15cm" version="1.1" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <circle id="MyPath" cx="200" cy="150" r="100" stroke="red" stroke-width="5"></circle>
+  </defs>
+  <desc>Example toap01 - simple text on a path</desc>
+
+  <use href="#MyPath" fill="none" stroke="red"></use>
+  <text font-family="Verdana" font-size="42.5" fill="blue">
+    <textpath href="#MyPath" id="space1" side="right">
+        dd
+    </textpath>
+  </text>
+
+  <!-- Show outline of viewport using 'rect' element -->
+  <rect x="1" y="1" width="998" height="298" fill="none" stroke="blue" stroke-width="2"></rect>
+	</svg>
+
     
     <p>hiddd</p>
     <button onclick="func1('dsd')">Click</button>
@@ -16,5 +33,16 @@
         
     </div>
 
-<script src="/miku_parcel.59712999.js"></script></body>
+    <svg viewbox="0 0 100 100">
+        <path id="Geek" fill="yellow" stroke="green" d="M10,90 Q90,90 90,45 Q90,10 50,10 Q10,
+               10 10,40 Q10,70 45,70 Q70,70 75,50"></path>
+  
+        <text>
+            <textpath href="#Geek">
+                The Geeky Text Along The Pat hdd
+            </textpath>
+        </text>
+    </svg>
+
+<script src="/miku_parcel.3464ddca.js"></script></body>
 </html>

@@ -9,6 +9,23 @@
     <title>Document</title>
 </head>
 <body>
+    <svg viewbox="0 0 500 220" version="1.1" xmlns="http://www.w3.org/2000/svg">
+
+        <path id="MyPath" d="M250,50
+        a 70,70 0 0,1 0,140
+        a 70,70 0 0,1 0,-140 "></path>
+
+  
+  <desc>Example toap01 - simple text on a path</desc>
+
+  <use href="#MyPath" fill="white" stroke="red"></use>
+  <text font-family="Verdana" font-size="20" fill="blue">
+    <textpath href="#MyPath" id="space1" side="left">
+        dd
+    </textpath>
+  </text>
+	</svg>
+
     
     <p>hiddd</p>
     <button onclick="func1('dsd')">Click</button>
@@ -22,10 +39,27 @@
   
         <text>
             <textpath href="#Geek">
-                The Geeky Text Along The Path
+                The Geeky Text Along The Pat hdd
             </textpath>
         </text>
     </svg>
+
+
+    <svg xmlns="http://www.w3.org/2000/svg" xml:lang="en" xmlns:xlink="http://www.w3.org/1999/xlink" viewbox="0 0 500 500">
+        <title>Circular Text Path</title>
+        <defs>
+          <path id="textcircle" d="M250,400
+                       a150,150 0 0,1 0,-300 a150,150 0 0,1 0,300Z" transform="rotate(12,250,250)"></path>
+        </defs>
+        <g class="textcircle">
+          <text textlength="940">
+            <textpath xlink:href="#textcircle" aria-label="CSS & SVG are awesome" textlength="940">
+              CSS &amp; SVG are awesome | CSS &amp; SVG are awesome |&#160;
+            </textpath>
+          </text>
+        </g>
+      </svg>
+
 
 <script src="/miku_parcel.dc250f55.js"></script></body>
 </html>
